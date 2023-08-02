@@ -1,0 +1,253 @@
+ #container {
+    margin: 0 auto;
+    border: 2px solid #838383;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: #838383;
+    width: 50%;
+    height: auto;
+    padding: 25px 5px 25px 5px;
+ }
+
+ /* Adjust label styles */
+ #container label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+
+ .containerforform {
+    margin: 0 auto;
+    border: 2px solid #838383;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: #838383;
+    width: 100%;
+    height: auto;
+    padding: 15px 5px 15px 5px;
+ }
+
+ .containerforform label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+
+ * {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .navbar {
+    background-color: rgb(235, 218, 198);
+    padding: 10px;
+ }
+
+ .header-logo {
+    float: left;
+ }
+
+ .header-logo a:hover {
+    color: #1b4c06;
+ }
+
+ .header-logo a {
+    text-decoration: none;
+    color: #000000;
+ }
+
+ .header-menu {
+    float: right;
+
+ }
+
+ .header-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+ }
+
+ .header-menu li {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+
+ }
+
+ .header-menu a {
+    text-decoration: none;
+    border: 1px solid hsl(0, 0%, 0%);
+    padding: 10px;
+    color: #000000;
+    border-radius: 35px;
+ }
+
+ .fotter-col {
+    padding: 10px;
+    background-color: rgb(235, 218, 198);
+    text-align: center;
+    margin-top: 10px;
+
+ }
+
+ .fotter-col:hover {
+    color: #1b4c06;
+ }
+
+ .header-menu a:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #FFE4C4;
+    padding: 10px;
+    color: #92C47D;
+    border-radius: 35px;
+ }
+
+ /* CARD DIV  */
+ /* 
+ .card-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem 1rem;
+    gap: 1rem 1rem;
+ }
+
+ .card-main {
+    background-color: #fff;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, .2);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid hsla(0, 0%, 82.7%, .397);
+    transition: all .3s ease;
+ }
+
+ .card-img-div {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+ }
+
+ .card-des-div {
+    text-align: center;
+ }
+
+ .card-footer-div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+ } */
+
+ /* PROFLE DIV  */
+
+ .profile-div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }
+
+ .profile-div img {
+    border-radius: 50%;
+ }
+
+ /* .profile-div .button1{
+   color: white;
+ } */
+
+ .profile-div button {
+    padding: 10px;
+    border: 2px solid #1b4c06;
+ }
+
+ .profile-div button:hover {
+    background-color: #EBDAC6;
+ }
+
+ .profile-div button a {
+    color: rgb(98, 30, 30);
+    text-decoration: none;
+    align-items: center;
+
+ }
+
+ /* Rating CSS STYLE  */
+ .rating {
+    display: inline-block;
+ }
+
+ .rating input {
+    display: none;
+ }
+
+ .rating label {
+    font-size: 30px;
+    color: #f5c518;
+    cursor: pointer;
+ }
+
+ .rating label:before {
+    content: '\2605';
+ }
+
+ /*  
+ .rating input:checked ~ label {
+   color: #f5c518;
+ }
+  */
+ /* .rating label:hover {
+   color: #f5c518;
+ } */
+
+
+ .card-div {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+ }
+
+ .card-main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ .card-img-div {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .card-img-div img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+ }
+
+ .card-des-div {
+    margin-top: 10px;
+ }
+
+ .card-footer-div {
+    margin-top: 10px;
+    text-align: center;
+ }
+
+ .card-footer-div a {
+    text-decoration: none;
+    color: #007bff;
+ }
+
+ .card-footer-div a:hover {
+    text-decoration: underline;
+ }
